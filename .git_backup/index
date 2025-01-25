@@ -1,0 +1,29 @@
+                Class installer: Enter 20:08:04.551
+     dvi:                     Class installer: Exit
+     dvi:                     Default installer: Enter 20:08:04.553
+     dvi:                     Default installer: Exit
+     dvi:                {DIF_DESTROYPRIVATEDATA - exit(0xe000020e)} 20:08:04.554
+     dvi:                Selected:
+     dvi:                     Description - [Standard Serial over Bluetooth link]
+     dvi:                     InfFile     - [c:\windows\system32\driverstore\filerepository\bthspp.inf_amd64_49288f8efca70edd\bthspp.inf]
+     dvi:                     Section     - [GenericSerial]
+     dvi:           {Select Best Driver - exit(0x00000000)}
+     dvi:      Default installer: Exit
+     dvi: {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)} 20:08:04.558
+     ndv: Waiting for previous device install to complete. 20:08:04.559
+     ndv: {Core Device Install} 20:08:05.582
+     ndv:      {Install Device - BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_VID&000105D6_PID&000A\8&27EB655C&2&419F3341F45D_C00000000} 20:08:05.582
+     ndv:           Parent device: BTH\MS_RFCOMM\7&6b68ff4&0&0
+     ndv:           {Configure Device - BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_VID&000105D6_PID&000A\8&27EB655C&2&419F3341F45D_C00000000} 20:08:05.598
+     ndv:                Parent device: BTH\MS_RFCOMM\7&6b68ff4&0&0
+!    ndv:                Device class {4d36e978-e325-11ce-bfc1-08002be10318} is not configurable.
+     ndv:           {Configure Device - exit(0x00000032)} 20:08:05.598
+     dvi:           {DIF_ALLOW_INSTALL} 20:08:05.598
+     dvi:                Using exported function 'PortsClassInstaller' in module 'C:\Windows\system32\MsPorts.Dll'.
+     dvi:                Class installer == MsPorts.Dll,PortsClassInstaller
+     dvi:                Class installer: Enter 20:08:05.598
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 20:08:05.598
+     dvi:                Default installer: Exit
+     dvi:           {DIF_ALLOW_INSTALL - exit(0xe000020e)} 20:08:05.598
+ 

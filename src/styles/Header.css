@@ -1,0 +1,96 @@
+
+/* top header*/
+#header_bg{
+    background-color: #172272;
+    color: white;
+}
+.header_info{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.header_info li{
+    border-right: 0.1px solid #2a379b;
+    padding: 7px 20px 7px 4px;
+}   
+.login{
+    border: none !important;
+}
+
+/* header line two */
+.logo{
+    width: 90%;
+    height: auto;
+    padding: 5px;
+    margin: 0px;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+/* button  */
+.links_buttons{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end ;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    align-items: center;
+}
+.links_buttons li{
+    margin-right: 15px;
+}
+.links_buttons li a{
+   padding: 5px 22px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0.1px solid initial;
+    border-radius: 5px;  
+    text-transform: capitalize; 
+}
+.pay-btn{
+    background:linear-gradient(to right,#172272,#5a68d1);
+    color: white !important;
+}
+
+.adm-btn{
+    color: white !important;
+    background:linear-gradient(to right,green,rgb(92, 216, 92));
+}
+
+.link{
+    border: 1px solid #172272;
+    color: #172272 !important;
+    transition: 1s;
+}
+
+/* button hover */
+.link:hover{
+    background:linear-gradient(to right,#172272,#5a68d1);
+    color: white !important;
+}
+
+.pay-btn:hover {
+    background:linear-gradient(to right,green,rgb(92, 216, 92));
+
+}
+
+.adm-btn:hover{
+    background:linear-gradient(to right,#172272,#5a68d1);
+
+}
+/* main header */
+.navbar-nav{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+}
+.nav-link{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
+}
+
